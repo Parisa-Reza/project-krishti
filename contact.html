@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="kimg/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="kcss/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@300;400&display=swap" rel="stylesheet">
+   
+    <script src="https://kit.fontawesome.com/d8bb648d7c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@300;400&display=swap" rel="stylesheet">
+   
+    <script>(function(w, d) { w.CollectId = "6447fb0a65918a6a20802df3"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
+<style>
+
+
+
+body{
+ 
+  width: 100%;
+  
+  
+}
+.container{
+  margin-left: 550px;
+  margin-top: 51px;
+  border-radius: 6px;
+  padding: 20px 60px 30px 40px;
+  margin-bottom: 120px;
+  margin-right: 100px;
+}
+.container .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .content .left-side{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+.content .left-side::before{
+  content: '';
+  position: absolute;
+  height: 70%;
+  width: 2px;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #afafb6;
+}
+.content .left-side .details{
+  margin: 14px;
+  text-align: center;
+}
+.content .left-side .details i{
+    margin: 100px;
+    font-size: 64px;
+    color: #13b708;
+    margin-bottom: 23px;
+}
+.content .left-side .details .topic{
+  font-size: 18px;
+  font-weight: 500;
+}
+.content .left-side .details .text-one,
+.content .left-side .details .text-two{
+  font-size: 14px;
+  color:  #f97605;
+  font-weight: bold;
+}
+
+ .container .content .left-side::before{
+   display: none;
+ }
+
+
+
+
+
+</style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="navlist">
+            <div class="logo"><img src="kimg/logo.jpg"> </div>
+            <li><a href="index.html" class="hov">Home</a></li>
+            <li><a href="about.html" class="hov">About</a></li>
+            <li><a href="#contactus" class="hov">Contact Us</a></li>
+            <input type="text" name="search" id="src" placeholder="Search for any item">
+
+            <button id="btn" name="button">search</button>
+            <i class="fa-solid fa-user" id="reg" style="color: #0cce19;"></i>
+            <a href="LOGIN/register.php" id="ad1">Register</a>
+            <i class="fa-solid fa-user" id="log" style="color: #0cce19;"></i>
+            <a href="LOGIN/login.php" id="ad2">Login</a>
+            <i class="fa-solid fa-cart-shopping" id="navcart" style="color: #21bb02;"></i>
+            <!-- <i class="fa-solid fa-cart-shopping" id="navcart"></i> -->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <div class="cart-content">
+
+
+                </div>
+                <div class="total">
+                    <div class="total-title">Total  </div>
+                    <div class="total-price"></div>
+                </div>
+                <button type="button" class="btn-buy">Buy Now</button>
+                <i class="fa-solid fa-rectangle-xmark" id="close-cart"></i>
+
+            </div>
+        </ul>
+
+
+     </nav>
+
+    
+      <div class="container">
+        <div class="content">
+          <div class="left-side">
+            <div class="address details">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="topic">Address</div>
+              <div class="text-one">Shadur Mor,Raninagar</div>
+              <div class="text-two">Rajshahi</div>
+            </div>
+            <div class="phone details">
+              <i class="fas fa-phone-alt"></i>
+              <div class="topic">Phone</div>
+              <div class="text-one">01840495004</div>
+              <div class="text-two">01934034038</div>
+            </div>
+            <div class="email details">
+              <i class="fas fa-envelope"></i>
+              <div class="topic">Email</div>
+              <div class="text-one">rezaparisa5@gmail.com</div>
+              <div class="text-two">parirez@gmail.com</div>
+            </div>
+          </div>
+         
+        </div>
+        </div>
+      </div>
+    
+    
+      
+    <footer>
+        <p>Copyright &copy; 2023, Parisa Reza</p>
+    </footer>
+</body>
+
+<script src="js/jquery-3.6.4.min.js"></script>
+<script src="cartt.js"></script>
+
+
+
+</html>
